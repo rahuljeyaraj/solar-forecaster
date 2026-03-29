@@ -34,12 +34,14 @@ It returns predicted solar irradiance:
 
 | Model | RMSE (W/m²) | MAE (W/m²) | R² |
 |-------|-------------|------------|------|
-| Linear Regression | — | — | — |
-| **Random Forest** | — | — | — |
-
-*(Fill these in after running notebook 02)*
+| Linear Regression | 167.4 | 112.6 | 0.656 |
+| **Random Forest** | 67.4 | 34.5 | 0.944 |
 
 Trained on Jan–Oct 2022, tested on Nov–Dec 2022 (chronological split, no data leakage).
+
+<img width="1800" height="1500" alt="image" src="https://github.com/user-attachments/assets/66b41d5c-46b0-460e-9914-7edc5535e1af" />
+<img width="2100" height="1200" alt="image" src="https://github.com/user-attachments/assets/2a6a4cdb-92a5-49dc-a1ea-b32334c40a2a" />
+
 
 ---
 
